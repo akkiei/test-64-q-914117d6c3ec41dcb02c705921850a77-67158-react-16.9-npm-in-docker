@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 1%;
 }
 
 .App-logo {
@@ -30,4 +31,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.leads_table {
+  text-align: center;
+
+  border: #282c34;
+}
+
+.sameCell {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.add_lead_modal_btn {
+  margin: 1%;
+  background-color: #282c34;
+  color: white;
+  border-style: outset;
+}
+.add_lead_form {
+  display: grid;
+}
+label {
+  margin: 1%;
+}
+
+input[type="text"] {
+  margin: 1%;
 }
